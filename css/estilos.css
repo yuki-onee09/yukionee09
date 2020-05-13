@@ -7,16 +7,15 @@
 body {
     background-image: url("https://imagizer.imageshack.com/img924/8601/hfnB9S.png");
     background-size: auto 100vh;
-    font-family: Arial;
+    font-family: 'Raleway', sans-serif;
     height: 100vh;
     backdrop-filter: blur(0px);
     font-size: 12px;
 }
 
-div.imgc {
-    display: flex;
-    justify-content: center;
+.portifolio {
     color: whitesmoke;
+    height: 100vh;
 }
 
 @media (min-width: 400px) {
@@ -82,13 +81,49 @@ a:hover {
 
 .site-title {
     font-size: 4em;
+    font-family: 'Arapey', serif;
 }
 
 .site-subtitle {
     font-style: italic;
+    font-family: 'Handlee', cursive;
+}
+
+.portifolio h2 {
+    color: whitesmoke;
+    font-family: 'Parisienne', cursive;
+    margin-bottom: 0.5em;
+    font-size: 3em;
+    align-content: center;
+}
+
+.portifolio .grid {
+    display: grid;
+    gap: 2em;
+    align-content: center;
+}
+
+@media (min-width: 580px) {
+    .portifolio .grid {
+        grid-template-columns: 250px 250px;
+    }
+}
+
+@media (min-width: 580px) {
+    .portifolio .grid {
+        grid-template-columns: repeat(3, 280px);
+        justify-content: center;
+        height: calc(100vh - 8em - 48px);
+    }
+}
+
+.portifolio figure {
+    text-align: center;
 }
 
 .img-portfolio {
     height: 180px;
-    width: 180px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20%;
 }
