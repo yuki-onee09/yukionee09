@@ -7,23 +7,24 @@
     <title>My Site</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Handlee&family=Parisienne&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d42fbff726.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portifolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <div>
+        <div class="titulo" id="home">
             <h1 class="site-title">Kauan Santana</h1>
             <h2 class="site-subtitle">web developer</h2>
         </div>
     </header>
-    <section class="portifolio">
+    <section class="portifolio" id="portifolio">
         <h2>Portfólio</h2>
         <div class="grid">
             <figure>
@@ -38,6 +39,23 @@
                 <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
                 <figcaption>Web design</figcaption>
             </figure>
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/yuki-onee09">
+                <i class="fab fa-github-square"></i>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/yukiff_/?hl=pt-br">
+                <i class="fab fa-instagram-square"></i>
+            </a>
+            <a target="_blank" href="https://www.facebook.com/kauan.santana.5492/">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="canaljokerzk@gmail.com">
+                <i class="fas fa-mail-bulk"></i>
+            </a>
         </div>
     </section>
 </body>
