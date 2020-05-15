@@ -7,6 +7,7 @@
     <title>My Site</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Handlee&family=Parisienne&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d42fbff726.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,21 +25,71 @@
             <h2 class="site-subtitle">web developer</h2>
         </div>
     </header>
+    <section class="sobre" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="alura">
+            <img class="alura1" src="img/400x400bb.jpg" alt="alura">
+        </figure>
+        <figure>
+            <div class="imersao">
+                <p>
+                    Esse site foi construido durante a <a href="https://www.alura.com.br/imersao-css">Imersão Css Alura</a> ;)
+                </p>
+            </div>
+            <div class="imgSobre" id="imgSobre">
+                <figure>
+                    <img class="imgSobre" src="img/aRDP1U8T_400x400.jpg" alt="Vanessa Tonini">
+                    <a href="https://twitter.com/vanessametonini">Vanessa Tonini</a>
+                </figure>
+                <figure>
+                    <img class="imgSobre" src="img/juliana_amoasei.1588281098.jpg" alt="Juliana Amoaesei">
+                    <a href="https://twitter.com/aquijuz">Juliana Amoasei</a>
+                </figure>
+                <figure>
+                    <img class="imgSobre" src="img/87392193_154025212304106_8215753688250992561_n(1).jpg" alt="Paulo Silveira">
+                    <a href="https://twitter.com/paulo_caelum">Paulo Silveira</a>
+                </figure>
+            </div>
+
+
+        </figure>
+    </section>
     <section class="portifolio" id="portifolio">
         <h2>Portfólio</h2>
         <div class="grid">
-            <figure>
-                <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
-                <figcaption>eCommerce</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
-                <figcaption>Mobile</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
-                <figcaption>Web design</figcaption>
-            </figure>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/pc-gamer-1024x683.jpg" alt="eCommerce">
+                        <figcaption>Gamer</figcaption>
+                    </figure>
+                    <div class="card-back">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-portfolio" src="./img/20180413104900.jpg" alt=">Mobile">
+                        <figcaption>Mobile</figcaption>
+                    </figure>
+                    <div class="card-back">
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <div class="card-front">
+                        <figure class="card-front">
+                            <img class="img-portfolio" src="./img/webdesingn.jpg" alt="Web design">
+                            <figcaption>Web Dev</figcaption>
+                        </figure>
+                        <div class="card-back">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="contato" id="contato">
